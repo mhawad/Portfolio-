@@ -1,0 +1,319 @@
+/*Global styles 
+..................................*/
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	color: #343434;
+	margin: 0;
+	padding: 0;
+    font-family: 'Fondamento', cursive;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+a {
+  color:#FFE66D;
+}
+
+a.hover {
+	text-decoration: none;	
+}
+
+h1 {
+font-size: 90px;
+line-height: 1;
+white-space: nowrap;
+width: 200px;
+color: yellow;	
+}
+
+#insetBgd {
+  width: 750px;
+  height: 100px;
+  background: -moz-linear-gradient(-90deg,#003471,#448CCB);
+  background: -webkit-gradient(linear, left top, left bottom, from(#003471), to(#448CCB));
+}
+
+h1.insetType {
+  float: center;
+  font-family: Rockwell, Georgia, "Times New Roman", Times, serif;
+  font-size: 50px;
+  color: yellow;
+  text-shadow: rgba(0,0,0,0.5) -1px 0, rgba(0,0,0,0.3) 0 -1px, rgba(255,255,255,0.5) 0 1px, rgba(0,0,0,0.3) -1px -2px;
+}
+
+
+h2 {
+	color: black;
+	font-size: 45px;
+	 position: relative;
+     left: 350px;
+     text-shadow: -2px 2px 3px pink;
+	margin: 50px;
+
+}
+
+h1, h2 {
+	font-family: 'Lemonada', cursive;
+	font-weight: 400;
+	margin: 20;
+}
+
+.content-wrap {
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px 0;
+}
+
+a:link {
+	color:green;
+}
+
+a:visited {
+	color: gray;
+}
+
+a.focus {
+	outline: 1px solid black;
+}
+
+
+a.active {
+color: white;	
+}
+
+img {
+	width: 400px;
+	padding: 0 auto;
+	margin: 50px 250px;
+}
+
+/*Proflie 
+..................................*/
+
+header {
+	background: #2F3061;
+	color: #F7FFF7;
+}
+
+
+/*Projects
+..................................*/
+.projects {
+	background: #F7FFF7;
+}
+.projects a {
+color: #2F3061;
+}
+
+.projects .btn {
+	color: #F7FFF7;
+	background: #2F3061;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.projects .btn a:hover {
+	background: rgba(47, 48, 97, 80%);
+}
+
+.project-item {
+	overflow: hidden;
+	border-bottom: 1px dashed #343434;
+	padding: 25px 0;
+	
+}
+
+.project-item img {
+	float: left;
+	margin-right: 20px;
+}
+
+.project-item h3 {
+	margin: 50px;
+
+}
+/*Work Experience 
+..................................*/
+.work-experience {
+	background: #2F3061;
+}
+
+.job-item{
+	display: grid;
+    grid-template-columns: 1fr 2fr;
+	column-gap: 20px;
+}
+/*Education 
+..................................*/
+.education {
+background: #F7FFF7;
+;
+}
+
+
+/*Contact Info 
+..................................*/
+
+.submit-btn {
+	box-sizing: border-box;
+	border-radius: 0px 2px 2px 0px;
+	background: #8B798C;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: white;
+	padding: 0.35em 0.75em;
+	border: none;
+	font-size: 1.1em;
+	text-decoration: none;
+	cursor: pointer;	
+}
+.submit-btn:hover {
+	background: #C17CCF;
+}
+
+.submit-btn {
+	flex: 1 0 90px;
+}
+
+.text-input {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 2 0 250px;
+}
+.form-fields li {
+		display: flex;
+		flex-wrap: wrap;
+	    flex: 1 0 90px;
+		
+	}
+.form-fields label {
+		flex: 1 0 90px;
+	max-width: 200px;
+}
+.register-form {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 0 220px;
+
+	
+}
+.form-area {
+		display: flex;
+		flex-wrap: wrap;
+	    justify-content: space-between;
+	}	
+
+.form-area li {
+	    width: 145px;
+	   flex: 1 0 200px;
+}
+
+footer {
+	background: #343434;
+	color: #F7FFF7;
+	
+}
+
+
+section {
+	font-family:sans-serif;
+	color: orange;
+/*	background: #2F3061;*/
+	background: #F7FFF7;
+	
+}
+
+
+p {
+	color:yellow;
+}
+h1{
+	color:#F7FFF7;
+}
+
+
+
+.example {
+	color:black;
+}
+
+.example2 {
+	background-color: black;
+}
+
+.example .example2 {
+	font-size: 50px;
+}
+
+#example {
+	color: purple;
+}
+
+
+section a {
+	color:green;
+}
+
+
+section p {
+	color: lightgreen;
+}
+
+section p a {
+	color:pink;
+}
+
+.container p a {
+	color:green;
+}
+
+.container {
+	background: brown;
+}
+
+ul {                                 
+text-align: left;  
+padding-bottom: 100px;	
+ }
+
+ul li {                                
+font: italic 20px serif; 
+display: inline-block;            
+position: relative;                
+padding: 15px 30px; 
+color: yellow;
+background: lightblue;                              
+}
+
+ul li:hover {                        
+background: #555;            
+color: blue;                        
+}
+
+ul li ul {                           
+padding: 50;                      
+position: absolute;             
+top: 70px;                       
+left: -10000px;                
+width: 400px;                  
+}
+
+ul li ul li {                       
+background: #555;           
+display: block;                
+color: yellow;                   
+}
+ 
+
+ul li:hover ul {                
+display: block;              
+left :70px;        
+}
